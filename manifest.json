@@ -1,0 +1,39 @@
+{
+    "manifest_version": 3,
+    "name": "ollie.fund",
+    "version": "1.0.0",
+
+    "action": {
+        "default_icon": {            
+          "16": "images/x16.png",
+          "24": "images/x24.png",
+          "32": "images/x32.png",
+          "64": "images/x64.png"
+        },
+        "default_title": "ollie powered values.",
+        "default_popup": "views/popup.html"
+    },
+    "description": "ollie powered values.",
+    "icons": {
+        "16": "images/x16.png",
+        "32": "images/x32.png",
+        "48": "images/x48.png",
+        "128": "images/x128.png"
+    },
+    
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "https://roblox.com/trades"
+    ],
+    "content_scripts": [{
+        "matches": ["https://*.roblox.com/*"],
+        "js": ["scripts/trades.js"],
+        "css": ["assets/main.css"]
+    }],
+
+    "background": {
+        "service_worker": "scripts/background.js"
+    }
+}

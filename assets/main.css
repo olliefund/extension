@@ -1,0 +1,13 @@
+.icon-ollie {
+    background-image: url('https://ollie.fund/static/img/ollie.png');
+    background-position: 2px 2px;
+    background-size: 80%;
+}
+
+.ollie-margin {
+    margin-top: -10px;
+}
+
+.icon-shop-limited {
+    display: none;
+}
