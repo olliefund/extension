@@ -1,4 +1,4 @@
-# ollie.fund chrome extensio
+# ollie.fund chrome extension
 a chrome extension that shows roblox value and rap on https://roblox.com/trades in an easily readable way !
 
 this is one of my first chrome extensions in forever and first time working with the new manifest version
